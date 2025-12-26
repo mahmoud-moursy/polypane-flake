@@ -2,7 +2,7 @@
 
 let
   pname = "polypane";
-  version = "26.0.0";
+  version = "27.1.0";
 
   src = fetchurl {
     url =
