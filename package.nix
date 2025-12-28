@@ -8,7 +8,7 @@ let
     url =
       "https://github.com/firstversionist/${pname}/releases/download/v${version}/${pname}-${version}.AppImage";
     name = "${pname}-${version}.AppImage";
-    sha256 = "04kwxwhrwq8pvd0767ji56cabf83slhm5jyv7mc5bsw571myffiv";
+    sha256 = "Ny2gLS526LhBYerMbcN7tC5UyIKFtRQTzyjT2C2lTh0=";
   };
 
   appimageContents = appimageTools.extractType2 { inherit pname src version; };
